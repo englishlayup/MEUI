@@ -1,0 +1,79 @@
+.nav {
+    height: 89.6px;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo {
+    flex: 3;
+}
+
+.navlinks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: catamaran;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    flex: 1;
+}
+
+.navicons {
+    color: #ffffff;
+    width: 149.6px;
+    text-align: center;
+    flex: 0.8;
+}
+
+.navicon a:link {
+   color: #ffffff;
+}
+
+.circle{
+    width: 36px;
+    height: 26px;
+    padding-top: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.facebook{
+    background-color: #3B5994;
+}
+
+.twitter{
+    background-color: #00B2E8;
+}
+
+.instagram{
+    background-color: #FD2D85;
+}
+
+body {
+    background-image: url("http://bridge42.qodeinteractive.com/wp-content/uploads/2016/05/parallax.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.header1 {
+    font-family: catamaran;
+    color: #ffffff;
+    margin-left: 100px;
+    line-height: 0.9;
+}
+
+.explore-button {
+    font-family: catamaran;
+    font-size: 14px;
+    border-radius: 125px;
+    width: 299.61px;
+    height: 78px;
+    border: none;
+    letter-spacing: 4px;
+}
+
+.explore-button:hover {
+    color: #ffffff;
+    background-color: black;
+}
