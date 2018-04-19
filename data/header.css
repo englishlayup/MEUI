@@ -21,9 +21,8 @@
 
 .navicons {
     color: #ffffff;
-    width: 149.6px;
     text-align: center;
-    flex: 0.8;
+    margin-right: 3%;
 }
 
 .circle:hover{
@@ -58,13 +57,16 @@
 body {
     background-image: url("parallax.jpg");
     background-repeat: no-repeat;
+    background-position: 57% 0%;
+    background-size: 131%;
     margin: 0;
 }
 
 .header1 {
     font-family: catamaran;
     color: #ffffff;
-    margin-left: 100px;
+    margin-left: 7%;
+    margin-top: -3%;
     line-height: 0.9;
 }
 
@@ -76,6 +78,8 @@ body {
     height: 78px;
     border: none;
     letter-spacing: 4px;
+    color: #EA4E78;
+    background-color: #ffffff;
 }
 
 .explore-button:hover {
