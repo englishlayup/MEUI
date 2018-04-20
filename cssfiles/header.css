@@ -1,0 +1,101 @@
+.nav {
+    height: 89.6px;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo {
+    flex: 3;
+}
+
+.navlinks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: catamaran;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    flex: 1;
+}
+
+.navicons {
+    color: #ffffff;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.circle:hover {
+    background-color: #ffffff;
+    color: darkblue;
+}
+
+.navicons a {
+    color: inherit;
+}
+
+.circle {
+    width: 36px;
+    height: 26px;
+    padding-top: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.facebook {
+    background-color: #3B5994;
+}
+
+.twitter {
+    background-color: #00B2E8;
+}
+
+.instagram {
+    background-color: #FD2D85;
+}
+
+.header-container {
+    height: 758.6px;
+}
+
+.header1 {
+    font-family: catamaran;
+    color: #ffffff;
+    margin-left: 7%;
+    margin-top: -3%;
+    line-height: 0.9;
+}
+
+.explore-button {
+    font-family: catamaran;
+    font-size: 14px;
+    border-radius: 125px;
+    width: 299.61px;
+    height: 78px;
+    border: none;
+    letter-spacing: 4px;
+    color: #EA4E78;
+    background-color: #ffffff;
+}
+
+.explore-button:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+body {
+    background-image: url("parallax.jpg");
+    background-repeat: no-repeat;
+    background-position: 57% 0%;
+    background-size: 131%;
+    margin: 0;
+}
+
+h3 {
+    font-size: 200%;
+    font-weight: 400;
+    margin-top: -3%;
+    line-height: 1.1;
+    font-weight: 400;
+}
