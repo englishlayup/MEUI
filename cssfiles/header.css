@@ -1,0 +1,135 @@
+body {
+    background-repeat: no-repeat;
+    background-position: 57% 0%;
+    background-size: 131%;
+    margin: 0;
+}
+
+.navbar-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: transparent;
+}
+
+.navbar-container.shrink {
+    height: 57px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+
+.navbar-container.shrink > img {
+    width: 56px;
+    height: 56px;
+}
+
+.navbar-container > img {
+    width: 90px;
+    height: 90px;
+}
+
+.navlinks-container {
+    list-style: none;
+    padding-left: 47%;
+}
+
+.navlinks-container > li {
+    display: inline-block;
+}
+
+.navlinks-container > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'catamaran', sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navicons-container {
+    padding-left: 2%
+}
+
+.navicons-container > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.circle:hover {
+    background-color: #ffffff;
+    color: darkblue;
+}
+
+.navicons a {
+    color: inherit;
+}
+
+.circle {
+    width: 36px;
+    height: 26px;
+    padding-top: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.facebook {
+    background-color: #3B5994;
+}
+
+.twitter {
+    background-color: #00B2E8;
+}
+
+.instagram {
+    background-color: #FD2D85;
+}
+
+.header-container {
+    height: 738px;
+    font-family: 'catamaran', sans-serif;
+    color: #ffffff;
+    line-height: 0.9;
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+.header-container > h3 {
+    font-size: 200%;
+    font-weight: 400;
+    margin-top: -3%;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.explore-button {
+    display: inline-block;
+    font-family: catamaran;
+    font-size: 14px;
+    line-height: 78px;
+    -webkit-border-radius: 125px;
+    width: auto;
+    height: 78px;
+    border: none;
+    letter-spacing: 4px;
+    color: #1e1e1e;
+    background-color: #ffffff;
+    padding-left: 58px;
+    padding-right: 58px;
+    position: relative;
+}
+
+.explore-button:hover {
+    color: #ffffff;
+    background-color: black;
+}
