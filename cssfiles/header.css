@@ -22,19 +22,20 @@
 .navicons {
     color: #ffffff;
     text-align: center;
+    margin-left: 3%;
     margin-right: 3%;
 }
 
-.circle:hover{
+.circle:hover {
     background-color: #ffffff;
     color: darkblue;
 }
 
-.navicons a{
-   color:inherit;
+.navicons a {
+    color: inherit;
 }
 
-.circle{
+.circle {
     width: 36px;
     height: 26px;
     padding-top: 10px;
@@ -42,24 +43,20 @@
     text-align: center;
 }
 
-.facebook{
+.facebook {
     background-color: #3B5994;
 }
 
-.twitter{
+.twitter {
     background-color: #00B2E8;
 }
 
-.instagram{
+.instagram {
     background-color: #FD2D85;
 }
 
-body {
-    background-image: url("parallax.jpg");
-    background-repeat: no-repeat;
-    background-position: 57% 0%;
-    background-size: 131%;
-    margin: 0;
+.header-container {
+    height: 758.6px;
 }
 
 .header1 {
@@ -85,4 +82,20 @@ body {
 .explore-button:hover {
     color: #ffffff;
     background-color: black;
+}
+
+body {
+    background-image: url("parallax.jpg");
+    background-repeat: no-repeat;
+    background-position: 57% 0%;
+    background-size: 131%;
+    margin: 0;
+}
+
+h3 {
+    font-size: 200%;
+    font-weight: 400;
+    margin-top: -3%;
+    line-height: 1.1;
+    font-weight: 400;
 }
