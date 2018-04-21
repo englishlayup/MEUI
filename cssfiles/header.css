@@ -27,6 +27,7 @@ body {
     position: fixed;
     top: 0;
     background-color: black;
+    z-index: 3;
 }
 
 .navbar-container.shrink > img {
@@ -68,14 +69,14 @@ body {
 
 .circle:hover {
     background-color: #ffffff;
-    color: darkblue;
+    color: black;
 }
 
 .navicons a {
     color: inherit;
 }
 
-.circle {
+.navicons-container .circle {
     width: 36px;
     height: 26px;
     padding-top: 10px;

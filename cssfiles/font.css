@@ -20,3 +20,10 @@
     src: url(fonts/catamaran/catamaran_800.woff2);
     font-weight: 800;
 }
+
+@font-face{
+    font-family: linea-basic-10;
+    src: url(fonts/linea-basic-10.woff);
+    font-weight: normal;
+    font-style: normal;
+}
