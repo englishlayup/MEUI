@@ -17,15 +17,22 @@
     top: -85px;
 }
 
+.rowContainer{
+    padding: 0 87px;
+}
+
+#outerpic{
+    padding-right: 0;
+}
+
 .row1 {
     height: 222px;
     padding-top: 86px;
     padding-bottom: 50px;
-    margin: 0 5%;
 }
 
 .row1 .column {
-    padding: 0 15px 0 15px;
+    padding: 0 40px 0 0;
     display: table-cell;
     vertical-align: top;
 }
@@ -53,21 +60,20 @@
     height: 191.66px;
 }
 
-.row2 {
-    padding-left: 5%;
+.row2Content {
     height: 316.2px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
 }
 
-.row2 .column > a {
+.row2Content .columnContent > a {
     font-family: linea-basic-10;
     font-size: 50px;
     font-style: normal;
 }
 
-.row2 .circle-wrapper {
+.row2Content .circle-wrapperContent {
     display: inline-block;
     width: 109.71px;
     height: 84.71px;
@@ -78,7 +84,7 @@
     vertical-align: middle;
 }
 
-.row2 .column > h5 {
+.row2Content .columnContent > h5 {
     color: #1e1e1e;
     font-size: 20px;
     line-height: 26px;
@@ -88,7 +94,7 @@
     text-transform: none;
 }
 
-.row2 .column > p {
+.row2Content .columnContent > p {
     color: #777777;
     font-size: 17px;
     line-height: 28px;

@@ -7,12 +7,11 @@
     <link href="cssfiles/fontawesome-all.css" type="text/css" rel="stylesheet">
     <link href="cssfiles/features.css" type="text/css" rel="stylesheet">
     <link href="cssfiles/fonts/linea-basic-10.woff" type="text/css" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="cssfiles/bootstrap/bootstrap.min.css">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/navbar.js"></script>
 </head>
 
-<body style="background-image: url(images/parallax.jpg)">
+<body>
     <div class="navbar-container">
         <img src="images/logo.png" alt="logo">
         <ul class="navlinks-container">
@@ -29,7 +28,7 @@
             <a href="https://www.instagram.com/" target="_blank"><span class="fab fa-instagram circle instagram"></span></a>
         </div>
     </div>
-    <div class="header-container">
+    <div class="header-container parallax" style="background-image: url(images/parallax.jpg)">
         <h1 style="font-size: 831%; font-weight: 800">
             <span>Perfect<br></span>
             <span>UI Design</span>
@@ -42,50 +41,59 @@
         <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
         <polygon points="0,86 86,0 86,86" fill="#fff"></polygon>
         </svg>
-        <div class="row1">
-            <div class="column">
-                <h3>
-                    Awarded industry experts in UX/UI design with<br>over 15 years of experience.
-                </h3>
-                <p>
-                    The ultra-portable Bluetooth speaker that will travel with you anywhere and bring more<br>sound and more bass into your life – wherever it’s happening that moment.
-                </p>
+        <div class="rowContainer">
+            <div class="row1" style="padding-left: 0px;">
+                <div class="column">
+                    <h3>
+                        Awarded industry experts in UX/UI design with<br>over 15 years of experience.
+                    </h3>
+                    <p>
+                        The ultra-portable Bluetooth speaker that will travel with you anywhere and bring more<br>sound and more bass into your life – wherever it’s happening that moment.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="images/icon.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/icon-2.jpg">
+                </div>
+                <div class="column" id="outerpic">
+                    <img src="images/icon-3.jpg">
+                </div>
             </div>
-            <div class="column">
-                <img src="images/icon.jpg">
-            </div>
-            <div class="column">
-                <img src="images/icon-2.jpg">
-            </div>
-            <div class="column">
-                <img src="images/icon-3.jpg">
-            </div>
-        </div>
-        <div class="row2">
-            <div class="column">
-                <a href="#"><span class="circle-wrapper" id="cloud">z</span></a>
-                <h5>Superior cloud technology<br>solutions</h5>
-                <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
-            </div>
-            <div class="column">
-                <a href="#"><span class="circle-wrapper" id="marker">R</span></a>
-                <h5>Experience in location-based<br>advertising strategies</h5>
-                <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
-            </div>
-            <div class="column">
-                <a href="#"><span class="circle-wrapper" id="bulb">7</span></a>
-                <h5>Creative interactive solutions with<br>user-centrix design</h5>
-                <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
-            </div>
-            <div class="column">
-                <a href="#"><span class="circle-wrapper" id="bolt">l</span></a>
-                <h5>Superior cloud technology<br>solutions</h5>
-                <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+            <!--        <br><br><br><br>-->
+            <div class="row2Content">
+                <div class="columnContent">
+                    <a href="#"><span class="circle-wrapperContent" id="cloud">z</span></a>
+                    <h5>Superior cloud technology<br>solutions</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+                <div class="columnContent">
+                    <a href="#"><span class="circle-wrapperContent" id="marker">R</span></a>
+                    <h5>Experience in location-based<br>advertising strategies</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+                <div class="columnContent">
+                    <a href="#"><span class="circle-wrapperContent" id="bulb">7</span></a>
+                    <h5>Creative interactive solutions with<br>user-centrix design</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+                <div class="columnContent">
+                    <a href="#"><span class="circle-wrapperContent" id="bolt">l</span></a>
+                    <h5>Superior cloud technology<br>solutions</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
             </div>
         </div>
     </div>
-    <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
+    <div class="designContainer">
+        <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
         <polygon points="0,86 86,0 86,86" style="fill:#f5f5f5;"></polygon>
     </svg>
+    </div>
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/navbar.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>-->
+<!--    <script src="js/bootstrap/bootstrap.min.js"></script>-->
 </html>

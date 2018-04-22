@@ -1,8 +1,18 @@
-body {
-    background-repeat: no-repeat;
-    background-position: 57% 0%;
-    background-size: 131%;
+body, html {
+    height: 100%;
     margin: 0;
+}
+
+.parallax { 
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 127%;
+    background-position-x: 58%;
+    background-position-y: 0%;
 }
 
 .navbar-container {
