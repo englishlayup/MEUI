@@ -7,19 +7,38 @@
     <link href="cssfiles/fontawesome-all.css" type="text/css" rel="stylesheet">
     <link href="cssfiles/features.css" type="text/css" rel="stylesheet">
     <link href="cssfiles/fonts/linea-basic-10.woff" type="text/css" rel="stylesheet">
-    <!--    <link rel="stylesheet" href="cssfiles/bootstrap/bootstrap.min.css">-->
+    <link href="cssfiles/fonts/ElegantIcons.woff" type="text/css" rel="stylesheet">
+    <link href="cssfiles/design.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/reviews.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/reviews2.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/reviews3.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/download.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place somewhere in the <head> of your document -->
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <!-- Place in the <head>, after the three links -->
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                controlsContainer: $(".custom-controls-container"),
+                customDirectionNav: $(".custom-navigation a")
+            });
+        });
+    </script>
 </head>
 
 <body>
+    <span onclick="topFunction()" id="myBtn" class="fa fa-arrow-up" title="Go to top"></span>
     <div class="navbar-container">
         <img src="images/logo.png" alt="logo">
         <ul class="navlinks-container">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">Download</a></li>
+            <li><a href="#" id="backHome">Home</a></li>
+            <li><a href="#" id="backFeatures">Features</a></li>
+            <li><a href="#" id="backDesign">Design</a></li>
+            <li><a href="#" id="backReviews">Reviews</a></li>
+            <li><a href="#" id="backDownload">Download</a></li>
         </ul>
         <div class="navicons-container">
             <a href="https://www.facebook.com/" target="_blank"><span class="fab fa-facebook circle facebook">
@@ -28,7 +47,7 @@
             <a href="https://www.instagram.com/" target="_blank"><span class="fab fa-instagram circle instagram"></span></a>
         </div>
     </div>
-    <div class="header-container parallax" style="background-image: url(images/parallax.jpg)">
+    <div class="header-container parallax" id="div1" style="background-image: url(images/parallax.jpg)">
         <h1 style="font-size: 831%; font-weight: 800">
             <span>Perfect<br></span>
             <span>UI Design</span>
@@ -37,13 +56,13 @@
             Awarded industry experts in UX/UI design with over<br>15 years of experience.</h3>
         <a class="explore-button">EXPLORE PROJECTS</a>
     </div>
-    <div class="features-container">
+    <div class="features-container" id="div2">
         <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
         <polygon points="0,86 86,0 86,86" fill="#fff"></polygon>
         </svg>
         <div class="rowContainer">
-            <div class="row1" style="padding-left: 0px;">
-                <div class="column">
+            <div class="row1" style="padding-left: 0px">
+                <div class="column" style="float: left">
                     <h3>
                         Awarded industry experts in UX/UI design with<br>over 15 years of experience.
                     </h3>
@@ -51,14 +70,16 @@
                         The ultra-portable Bluetooth speaker that will travel with you anywhere and bring more<br>sound and more bass into your life – wherever it’s happening that moment.
                     </p>
                 </div>
-                <div class="column">
-                    <img src="images/icon.jpg">
-                </div>
-                <div class="column">
-                    <img src="images/icon-2.jpg">
-                </div>
-                <div class="column" id="outerpic">
-                    <img src="images/icon-3.jpg">
+                <div id="iconsWrap" style="float: right">
+                    <div class="column">
+                        <img src="images/icon.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="images/icon-2.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="images/icon-3.jpg">
+                    </div>
                 </div>
             </div>
             <!--        <br><br><br><br>-->
@@ -86,14 +107,195 @@
             </div>
         </div>
     </div>
-    <div class="designContainer">
+    <div class="designContainer" id="div3">
         <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
         <polygon points="0,86 86,0 86,86" style="fill:#f5f5f5;"></polygon>
     </svg>
+        <div class="designRow">
+            <div class="inner-design-column">
+                <div id="phone-wrapper">
+                    <img src="images/phone.png">
+                </div>
+            </div>
+            <div class="inner-design-column">
+                <h2>Superior design</h2>
+                <h3>Awarded industry experts in UX/UI design with<br>over 15 years of experience.</h3>
+                <a class="explore-button">EXPLORE PROJECTS</a>
+            </div>
+        </div>
+    </div>
+    <div class="reviewsContainer" id="div4">
+        <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
+        <polygon points="0,86 86,0 86,86" style="fill:#31202f"></polygon>
+        </svg>
+        <div class="reviewsRow">
+            <span class="fa-stack-2x fa-lg" id="quoteicon">
+                <span class="icon_quotations"></span>
+            </span>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                        <div>
+                            <div>
+                                <div style="color: #ffffff;">
+                                    <p style="font-size:30px;color:#ffffff; font-weight: 200">It has all the tools you need. Moreover is a very dynamic tool that is constantly being updated and enhanced with features.</p>
+                                    <p style="color: #ffffff;font-weight: 500;color: #ffffff;font-size: 23px;">- Robin Chronister</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
+                        <div>
+                            <div>
+                                <div style="color: #ffffff;">
+                                    <p style="font-size:30px;color:#ffffff;">The home improvement market is heating up, and so are the come-ons from contractors and manufacturers.</p>
+                                    <p style="color: #ffffff;font-weight: 500;color: #ffffff;font-size: 23px;">- Andrew Pina</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                        <div>
+                            <div>
+                                <div style="color: #ffffff;">
+                                    <p style="font-size:30px;color:#ffffff;">On a global scale, newspaper advertising is the medium which had suffered the most in terms of ad spend, sales and revenue.</p>
+                                    <p style="color: #ffffff;font-weight: 500;color: #ffffff;font-size: 23px;">- Michael Jordan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="custom-navigation">
+                <a href="#" class="flex-prev far fa-caret-square-left"></a>
+                <a href="#" class="flex-next far fa-caret-square-right"></a>
+            </div>
+        </div>
+    </div>
+    <div class="reviewContainer2">
+        <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
+            <polygon points="0,86 86,0 86,86" fill="#fff"></polygon>
+            </svg>
+        <div class="inner-review2-row">
+            <div class="inner-review2-column">
+                <h2>Superior design</h2>
+                <div class="h5-holder">
+                    <h5>
+                        <span style="float: left">Superior speeds</span>
+                        <span id="percentCount-32" style="float: right"></span>
+                    </h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" id="progress-32"></div>
+                </div>
+                <div class="h5-holder">
+                    <h5>
+                        <span style="float: left">Graphic interface</span>
+                        <span id="percentCount-70" style="float: right"></span>
+                    </h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" id="progress-70"></div>
+                </div>
+                <div class="h5-holder">
+                    <h5>
+                        <span style="float: left">Interactive solutions</span>
+                        <span id="percentCount-55" style="float: right"></span>
+                    </h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" id="progress-55"></div>
+                </div>
+                <div class="h5-holder">
+                    <h5>
+                        <span style="float: left">Cloud technology</span>
+                        <span id="percentCount-88" style="float: right"></span>
+                    </h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" id="progress-88"></div>
+                </div>
+            </div>
+            <div class="inner-review2-column">
+                <img src="images/phones.png" width="558px" height="630px">
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="reviewContainer3">
+        <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86"><polygon points="0,86 86,0 86,86" style="fill:#f5f5f5;"></polygon></svg>
+        <div class="inner-review3-row1">
+            <div class="i"
+        </div>
+    </div>
+-->
+    <div class="features-container" id="mouseover" style="background: #f5f5f5">
+        <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
+        <polygon points="0,86 86,0 86,86" fill="#f5f5f5"></polygon>
+        </svg>
+        <div class="rowContainer" style="background: #f5f5f5">
+            <div class="row1" style="padding-left: 0px">
+                <div class="column" style="float: right">
+                    <h3>
+                        Awarded industry experts in UX/UI design with<br>over 15 years of experience.
+                    </h3>
+                    <p>
+                        The ultra-portable Bluetooth speaker that will travel with you anywhere and bring more<br>sound and more bass into your life – wherever it’s happening that moment.
+                    </p>
+                </div>
+                <div id="reviewIcons" style="float: left">
+                    <div class="column">
+                        <img src="images/icon-4.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="images/icon-5.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="images/icon-6.jpg">
+                    </div>
+                </div>
+            </div>
+            <!--        <br><br><br><br>-->
+            <div class="row2Content">
+                <div class="columnContent" id="review-attr">
+                    <span class="counter" id="counter2000"></span>
+                    <h5>Superior cloud technology</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+                <div class="columnContent">
+                    <span class="counter" id="counter750"></span>
+                    <h5>Experience in location-based</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+                <div class="columnContent">
+                    <span class="counter" id="counter12900"></span>
+                    <h5>Creative interactive solutions</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+                <div class="columnContent">
+                    <span class="counter" id="counter986"></span>
+                    <h5>Superior cloud technology</h5>
+                    <p>The ultra-portable Bluetooth speaker that<br>will travel with you anywhere.</p>
+                </div>
+            </div>
+        </div>
+        <svg class="angled-section svg-bottom" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86"><polygon points="0,0 0,86 86,0" style="fill:#f5f5f5;"></polygon></svg>
+    </div>
+    <div class="download-container parallax" id="div5">
+        <h2>Download now!</h2>
+        <h3>Awarded industry experts in UX/UI design with over 15 years of experience.</h3>
+        <a class="explore-button" id="download-button">DOWNLOAD NOW!</a>
+        <div class="bottom-navicons">
+            <a href="https://www.facebook.com/" target="_blank"><span class="fab fa-facebook circle facebook">
+            </span></a>
+            <a href="https://www.twitter.com/" target="_blank"><span class="fab fa-twitter circle twitter"></span></a>
+            <a href="https://www.instagram.com/" target="_blank"><span class="fab fa-instagram circle instagram"></span></a>
+        </div>
     </div>
 </body>
-<script src="js/jquery-3.3.1.min.js"></script>
+<!--<script src="js/jquery-3.3.1.min.js"></script>-->
+<script src="js/backtotop.js"></script>
 <script src="js/navbar.js"></script>
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>-->
-<!--    <script src="js/bootstrap/bootstrap.min.js"></script>-->
+<script src="js/progressbar.js"></script>
+<script src="js/counter.js"></script>
 </html>
