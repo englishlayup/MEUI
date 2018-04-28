@@ -1,0 +1,31 @@
+/*
+.reviewContainer3 {
+    text-align: center;
+    position: relative;
+    background: #f5f5f5;
+    padding-top: 40px;
+}
+
+.inner-review3-row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+}*/
+
+#reviewIcons .column{
+    padding-right: 54px;
+}
+
+#review-attr > h5{
+    color: #1e1e1e;
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.counter{
+    font-weight: 900;
+    font-size: 60px;
+}

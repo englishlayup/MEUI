@@ -1,0 +1,50 @@
+.reviewsContainer{
+    position: relative;
+    background: #31202f;
+}
+
+.reviewsRow{
+    text-align: center;
+    padding: 115px 317px 205px 351px;
+}
+
+.reviewsRow .fa-stack-2x {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    line-height: 2.29em;
+    vertical-align: middle;
+}
+
+#quoteicon{
+    background-color: rgba(255, 255, 255, 0.01);
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 60px;
+    border-radius: 200px;
+    color: #ffffff;
+}
+
+#quoteicon:hover{
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.slides > li > p {
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+}
+
+.custom-navigation{
+    font-size: 35px;
+}
+
+.custom-navigation > a{
+    color: #ffffff;
+    text-decoration: none;
+}

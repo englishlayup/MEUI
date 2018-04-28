@@ -1,0 +1,48 @@
+.reviewContainer2 {
+    text-align: center;
+    position: relative;
+    background: #fff;
+    padding-top: 40px;
+}
+
+.reviewContainer2 .inner-review2-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.inner-review2-column > h2 {
+    color: #1e1e1e;
+    font-size: 60px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 0px;
+}
+
+.inner-review2-column .h5-holder > h5 {
+    position: relative;
+    margin-left: 164px;
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.progress-bar {
+    position: relative;
+    margin-top: 75.6px;
+    margin-left: 164px;
+    height: 5px;
+    background-color: #f2f2f2;
+}
+
+.progress {
+    width: 1%;
+    height: 5px;
+    background-color: rgb(240, 48, 74);
+}
