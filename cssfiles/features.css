@@ -52,16 +52,12 @@
     font-weight: 200;
 }
 
-.row1 .column > img {
-    width: 191.66px;
-    height: 191.66px;
-}
-
 .row1 #iconsWrap .column{
     padding-left: 54px;
 }
 
 .row2Content {
+    margin-left: 40px;
     height: 316.2px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -84,7 +80,6 @@
     color: #fff;
     vertical-align: middle;
 }
-
 .row2Content .columnContent > h5 {
     color: #1e1e1e;
     font-size: 20px;
@@ -93,6 +88,7 @@
     font-weight: 400;
     letter-spacing: 0px;
     text-transform: none;
+    margin: 0;    
 }
 
 .row2Content .columnContent > p {
@@ -101,6 +97,7 @@
     line-height: 28px;
     font-style: normal;
     font-weight: 200;
+    width: 85%;
 }
 
 #cloud{
