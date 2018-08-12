@@ -41,7 +41,7 @@ body{
 .navbar-container {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 90px;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ body{
 
 .navlinks-container {
     list-style: none;
-    padding-left: 47%;
+    padding-left: 45%;
 }
 
 .navlinks-container > li {
@@ -136,6 +136,7 @@ body{
     line-height: 0.9;
     padding-top: 3%;
     padding-left: 7%;
+    background-image: url('../images/parallax.jpg');
 }
 
 .header-container > h3 {

@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px)  {
+	.navlinks-container {
+		display: none;
+	}
+	.navicons-container {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px)  {
+	.parallax  {
+	background-position-x: 155%;
+    background-position-y: 0%;
+	}
+}
+
+@media only screen and (max-width: 480px)  {
+	.header-container  {
+		width: 335px;
+		height: 640px;
+		padding-left: 25px;
+	}
+}
+
+@media only screen and (max-width: 600px)  {
+	.header-container h1 {
+		font-size: 55px !important;
+    	line-height: 53px;
+    	margin-top: 120px;
+	}
+}
+
+@media only screen and (max-width: 600px)  {
+	.header-container h3 {
+		font-size: 22px !important;
+    	line-height: 32px;
+    	width: 300px !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.explore-button {
+		padding: 0 14px;
+	}
+}
+
+106 122
+228 254
+256 291
